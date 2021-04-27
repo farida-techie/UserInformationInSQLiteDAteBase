@@ -13,11 +13,11 @@ class UserAdapter(private val c:Context,listU:ArrayList<UserInfo>)
     :RecyclerView.Adapter<UserViewHolder>()
 {
     private val listUser :ArrayList<UserInfo>
-    private val mArrauList:ArrayList<UserInfo>
+   // private val mArrauList:ArrayList<UserInfo>
     private val mDataBase:HelperSQl
     init {
         this.listUser = listU
-        this.mArrauList = listU
+        //this.mArrauList = listU
         mDataBase = HelperSQl(c)
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {

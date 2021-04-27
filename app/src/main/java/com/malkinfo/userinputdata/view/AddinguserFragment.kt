@@ -29,9 +29,9 @@ class AddinguserFragment : Fragment() {
     /**Call DataBase*/
     private lateinit var dataHelper:HelperSQl
     var imageUri:Uri? = null
-    private var c :Context? = null
+   // private var c :Context? = null
 
-    var db :SQLiteDatabase? = null
+   // var db :SQLiteDatabase? = null
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

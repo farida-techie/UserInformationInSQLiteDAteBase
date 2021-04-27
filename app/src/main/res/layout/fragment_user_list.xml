@@ -17,7 +17,8 @@
 
 
             <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/userLR"
+                android:id="@+id/userLR"
+                tools:listitem="@layout/user_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
